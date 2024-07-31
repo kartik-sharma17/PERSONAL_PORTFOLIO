@@ -28,7 +28,7 @@
 .intro_text h1 {
     font-family: "Sora", sans-serif;
     font-weight: 700;
-    background: linear-gradient(to right, #8952f8 , white);
+    background: linear-gradient(to right, #8952f8, white);
     -webkit-background-clip: text;
     color: transparent;
     font-size: 4.7vw;
@@ -47,11 +47,11 @@
 }
 
 /* for text to move over hover */
-.hov_t{
+.hov_t {
     transition: transform .50s;
 }
 
-.hov_t:hover{
+.hov_t:hover {
     transform: scale(1.02);
 }
 
@@ -64,21 +64,16 @@
     background-size: cover;
     background-color: #0b1016;
     border-radius: 40px;
-    border: 2.5px solid #330297;  
+    border: 2.5px solid #330297;
     rotate: 4deg;
-    transition:transform .4s;
+    transition: transform .4s;
     /* transition-delay: .1s ; */
 }
 
-:hover.intro_image{
+:hover.intro_image {
     transform: rotate(-4deg);
     border-color: #8952f8;
 }
-
-
-
-
-
 
 
 /* for intro buttons */
@@ -91,8 +86,8 @@
     margin-left: -18px;
 }
 
-/* for button on intro */ 
-.bt{
+/* for button on intro */
+.bt {
     padding: 10px 35px;
     border-radius: 40px;
     font-size: 1.4vw;
@@ -103,7 +98,7 @@
 }
 
 /* for icons  */
-.icons{
+.icons {
     color: #8952f8;
     font-size: 1vw;
     border-radius: 50%;
@@ -112,16 +107,137 @@
     background-color: transparent;
 }
 
+.icons_parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
 
 /* for hover effect on icons and button of intro */
 
-.hov_b{
+.hov_b {
     transition: transform .4s;
 }
 
 
-.hov_b:hover{
+.hov_b:hover {
     background-color: #8952f8;
     color: white;
     transform: scale(1.1);
+}
+
+/* for responsiveness */
+
+@media (min-width:1001px) and (max-width: 1400px) {
+
+    .intro_image {
+        height: 465px;
+        width: 400px;
+    }
+
+    .intro {
+        height: 470px;
+        width: 700;
+    }
+
+    .intro h1 {
+        font-size: 70px;
+    }
+
+    .intro h3 {
+        font-size: 40px;
+    }
+
+    .intro h5 {
+        font-size: 23px;
+    }
+
+}
+
+
+@media (max-width:600px) {
+    .body {
+        flex-direction: column;
+    }
+
+    .intro {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro h1 {
+        font-size: 12vw;
+    }
+
+    .intro h3 {
+        font-size: 6vw;
+    }
+
+    .intro h5 {
+        display: none;
+    }
+
+    .intro_image {
+        height: 80vw;
+        width: 70vW;
+        position: absolute;
+        top: 50vw;
+    }
+
+    .intro_buttons {
+        position: absolute;
+        top: 140vw;
+        /* justify-content: center; */
+        width: 100%;
+    }
+
+    .bt{
+        font-size: 4vw;
+    }
+
+    .icons{
+        font-size:2.5vw;
+    }
+}
+
+@media (min-width:600px) and (max-width:1000px) {
+    .intro_image {
+        height: 55vw;
+        width: 45vW;
+        margin-top: -180px;
+    }
+
+    .intro h1 {
+        font-size: 6vw;
+    }
+
+    .intro h3 {
+        font-size: 3vw;
+    }
+
+    .intro h5 {
+        font-size: 2vw;
+    }
+
+    .intro_buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .bt{
+        font-size: 2.5vw;
+    }
+
+    .icons_parent{
+        margin-top: 20px;
+        width: 60%;
+    }
+
+    .icons{
+        font-size:1.5vw;
+    }
 }

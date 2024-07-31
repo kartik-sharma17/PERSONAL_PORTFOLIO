@@ -11,7 +11,7 @@ export const Front = () => {
     <div className="body">
       <div className="intro mt-5">
         <div className="intro_text">
-          <h3 className='text-light ms-2 hov_t' >I am Kartik sharma</h3>
+          <h3 className='text-light ms-2 hov_t' >I am Kartik Sharma</h3>
           <h1 className='hov_t'>Java Full Stack <br/> Developer</h1>
           <h5 className='mt-3 hov_t'>
             Crafting seamless web experiences from front to back with Java expertise! Passionate about building
@@ -20,10 +20,12 @@ export const Front = () => {
 
           <div className="intro_buttons mt-4">
             <button className='bt hov_b'>Download CV <FontAwesomeIcon  icon={faDownload} /></button>
+            <div className="icons_parent">
             <FontAwesomeIcon className='icons hov_b' icon={faXTwitter} />
             <FontAwesomeIcon className='icons hov_b' icon={faLinkedinIn} />
             <FontAwesomeIcon className='icons hov_b' icon={faGithub} />
             <FontAwesomeIcon className='icons hov_b' icon={faInstagram} />
+            </div>
           </div>
         </div>
       </div>
