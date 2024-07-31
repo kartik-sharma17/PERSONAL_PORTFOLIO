@@ -5,6 +5,7 @@ import './App.css'
 import { Front } from './Components/Front'
 import { Navbar } from './Components/Navbar'
 import { Education } from './Components/Education'
+import { Skills } from './Components/Skills'
 
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
   return (
     <>
       <>   
-      <Front/>
-      <Education/>
+      {/* <Front/> */}
+      {/* <Education/> */}
+      <Skills/>
       </>
     </>
   )
