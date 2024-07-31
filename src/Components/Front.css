@@ -46,14 +46,42 @@
     /* letter-spacing: 0cap; */
 }
 
+/* for text to move over hover */
+.hov_t{
+    transition: transform .50s;
+}
+
+.hov_t:hover{
+    transform: scale(1.02);
+}
+
 /* FOR INTRO image part */
 .intro_image {
     height: 70vh;
-    width: 30vW;
+    width: 29vW;
     /* background-color: white; */
+    background-image: url(./PHOTO/PORTFOLIO_PIC.jpg);
+    background-size: cover;
+    background-color: #0b1016;
+    border-radius: 40px;
+    border: 2.5px solid #330297;  
+    rotate: 4deg;
+    transition:transform .4s;
+    /* transition-delay: .1s ; */
 }
 
-/* fot intro buttons */
+:hover.intro_image{
+    transform: rotate(-4deg);
+    border-color: #8952f8;
+}
+
+
+
+
+
+
+
+/* for intro buttons */
 .intro_buttons {
     display: flex;
     width: 70%;
@@ -82,4 +110,18 @@
     border: 1px solid #8952f8;
     padding: 10px;
     background-color: transparent;
+}
+
+
+/* for hover effect on icons and button of intro */
+
+.hov_b{
+    transition: transform .4s;
+}
+
+
+.hov_b:hover{
+    background-color: #8952f8;
+    color: white;
+    transform: scale(1.1);
 }
