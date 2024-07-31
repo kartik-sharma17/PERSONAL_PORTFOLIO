@@ -160,6 +160,7 @@
 @media (max-width:600px) {
     .body {
         flex-direction: column;
+        height: 100%;
     }
 
     .intro {
@@ -185,7 +186,7 @@
         height: 80vw;
         width: 70vW;
         position: absolute;
-        top: 50vw;
+        top: 60vw;
     }
 
     .intro_buttons {
@@ -208,7 +209,7 @@
     .intro_image {
         height: 55vw;
         width: 45vW;
-        margin-top: -180px;
+        /* margin-top: -180px; */
     }
 
     .intro h1 {

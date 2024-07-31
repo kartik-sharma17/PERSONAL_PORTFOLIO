@@ -1,0 +1,87 @@
+
+
+/* for body  */
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #060709;
+}
+
+/* for heading */
+.heading{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 15vh;
+    /* background-color: aqua; */
+}
+
+.heading h1{
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    background: linear-gradient(to right, #8952f8, white);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* for education icons */
+.icons{
+    color: #8952f8;
+    font-size: 2.4vw;
+    margin-right: 15px;
+    margin-bottom: 10px ;
+}
+
+/* for checkpoints */
+.check_points{
+    background-color: #190d24;
+    height: 23vh;
+    width: 38vw;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+/* for hover animation */
+.check_points:hover{
+    background: linear-gradient(to right,#8750f7, #2a1454 );
+}
+
+:hover.check_points h2{
+    color: white;
+}
+
+:hover.check_points h4{
+    color: white;
+}
+
+/* for text inside check_points */
+
+.check_points h3{
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 1.6vw;
+    color: white;
+}
+
+.check_points h4{
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #c3cfd9;
+}
+.check_points h2{
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 1.7vw;
+    color: #8153ee;
+}
+
+/* for timeline */
+
+
