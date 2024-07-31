@@ -1,0 +1,85 @@
+/* for body */
+.body {
+    background-color: #100817;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* for intro part */
+
+.intro {
+    height: 70vh;
+    width: 50vW;
+    /* background-color: aqua; */
+}
+
+/* for into text fonts */
+.intro_text h3 {
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 2.5vw;
+    /* letter-spacing: 0cap; */
+}
+
+.intro_text h1 {
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    background: linear-gradient(to right, #8952f8 , white);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 4.7vw;
+    /* letter-spacing: 0cap; */
+}
+
+.intro_text h5 {
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    color: antiquewhite;
+    font-size: 1.4vw;
+    color: #dddddd;
+    line-height: 30px;
+    width: 90%;
+    /* letter-spacing: 0cap; */
+}
+
+/* FOR INTRO image part */
+.intro_image {
+    height: 70vh;
+    width: 30vW;
+    /* background-color: white; */
+}
+
+/* fot intro buttons */
+.intro_buttons {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-left: -18px;
+}
+
+/* for button on intro */ 
+.bt{
+    padding: 10px 35px;
+    border-radius: 40px;
+    font-size: 1.4vw;
+    color: #8952f8;
+    background-color: transparent;
+    border: 1px solid #8952f8;
+    font-family: monospace;
+}
+
+/* for icons  */
+.icons{
+    color: #8952f8;
+    font-size: 1vw;
+    border-radius: 50%;
+    border: 1px solid #8952f8;
+    padding: 10px;
+    background-color: transparent;
+}
