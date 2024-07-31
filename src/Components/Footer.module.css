@@ -1,0 +1,60 @@
+
+/* for footer */
+.footer_main{
+    background-color: #100817;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center ; */
+}
+
+/* for ancher used in footer */
+a{
+    text-decoration: none;
+    margin: 20px;
+    color: #dddddd;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+}
+/* for animaiton */
+a:hover{
+    border-bottom: 2px solid #8453d1;
+}
+
+/* for text inside a footer */
+.footer_main h2{
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.footer_main h5{
+    color: #8453d1;
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    font-size: 1.2vw;
+}
+
+
+/* for icons in footer */
+.icons{
+    color: #dddddd;
+    margin: 25px;
+    font-size: 1.3vw;
+    margin-top: 50px;
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    padding: 10px;
+    transition: transform .4s;
+}
+
+/* for animation in icons */
+
+
+.icons:hover{
+    transform: scale(1.1);
+    color: #8453d1;
+    border: 1px solid #8453d1;
+}

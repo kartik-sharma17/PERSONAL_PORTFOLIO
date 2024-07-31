@@ -6,6 +6,7 @@ import { Front } from './Components/Front'
 import { Navbar } from './Components/Navbar'
 import { Education } from './Components/Education'
 import { Skills } from './Components/Skills'
+import { Footer } from './Components/Footer'
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       <>   
       {/* <Front/> */}
       {/* <Education/> */}
-      <Skills/>
+      {/* <Skills/> */}
+      <Footer/>
       </>
     </>
   )
