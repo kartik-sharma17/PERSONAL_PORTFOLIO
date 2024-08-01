@@ -2,8 +2,8 @@
 
 .body{
     background-color: #100817;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -36,23 +36,191 @@
 /* for skills conatainer */
 .skills_container{
     background-color: #1d1127;
-    height: 40vh;
-    width: 80vw;
+    height: 34vh;
+    width: 70vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 20px;
+    margin: 20px;
 }
+
+
+
+/* for moving animation of container */
+@keyframes slidefromleft {
+    from{
+        transform: translateX(-200px);
+    }
+
+    to{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes slidefromright {
+    from{
+        transform: translateX(200px);
+    }
+
+    to{
+        transform: translateX(0px);
+    }
+}
+
+.front_end{
+    animation-name: slidefromleft;
+    animation-duration: 1.5s;   
+    position: relative;
+    left: -100px;
+}
+
+.back_end{
+    animation-name: slidefromright;
+    animation-duration: 1.5s;   
+    position: relative;
+    right: -100px;
+}
+
+
+.others{
+    animation-name: slidefromleft;
+    animation-duration: 1.5s;   
+    position: relative;
+    left : -100px;
+}
+
 
 /* for tetx inside the conatainer  */
 .skills_container h2{
     font-family: "Sora", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 2vw;
-    color: #c3cfd9;
+    color: #8454e7;
     margin-top: 10px;
+    margin-bottom: -10px;
 }
 
-.icons{
+
+
+/* for icons container */
+
+.skills_container_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* for icons inside skills container */
+.icons_img{
+    height: 90px;
+    width: 90px;
+    background-color: #100817;
     margin: 10px;
-    font-size: 4vw;
+    border-radius: 10px;
+    transition: background-color .5s;
+}
+
+/* for animation on icons */
+.icons_img:hover{
+    background-color: white;
+    /* background-color: #2a1454; */
+}
+
+.icon_1{
+    background-image: url(/src/Components/PHOTO/icons/icons8-html-240.png);
+    background-size: cover;
+}
+.icon_2{
+    background-image: url(/src/Components/PHOTO/icons/icons8-bootstrap-500.png);
+    background-size: cover;
+}
+.icon_3{
+    background-image: url(/src/Components/PHOTO/icons/icons8-css-500.png);
+    background-size: cover;
+}
+.icon_4{
+    background-image: url(/src/Components/PHOTO/icons/icons8-javascript-500.png);
+    background-size: cover;
+}
+.icon_5{
+    background-image: url(/src/Components/PHOTO/icons/icons8-next.js-500.png);
+    background-size: cover;
+}
+.icon_6{
+    background-image: url(/src/Components/PHOTO/icons/icons8-tailwindcss-500.png);
+    background-size: cover;
+}
+.icon_7{
+    background-image: url(/src/Components/PHOTO/icons/reactt.png);
+    background-size: cover;
+}
+
+
+/* for backend icons */
+.icon_9{
+    background-image: url(/src/Components/PHOTO/icons/backenf/icons8-java-100.png);
+    background-size: cover;
+}
+.icon_10{
+    background-image: url(/src/Components/PHOTO/icons/backenf/icons8-mongodb-100.png);
+    background-size: cover;
+}
+.icon_11{
+    background-image: url(/src/Components/PHOTO/icons/backenf/icons8-mysql-logo-100.png);
+    background-size: cover;
+}
+.icon_12{
+    background-image: url(/src/Components/PHOTO/icons/backenf/icons8-php-100.png);
+    background-size: cover;
+}
+.icon_13{
+    background-image: url(/src/Components/PHOTO/icons/backenf/icons8-postgresql-100.png);
+    background-size: cover;
+}
+.icon_14{
+    background-image: url(/src/Components/PHOTO/icons/backenf/icons8-spring-boot-100-2.png);
+    background-size: cover;
+}
+.icon_15{
+    background-image: url(/src/Components/PHOTO/icons/backenf/icons8-spring-boot-100.png);
+    background-size: cover;
+}
+
+/* for the others */
+
+.icon_16{
+    background-image: url(/src/Components/PHOTO/icons/others/icons8-c-programming-500.png);
+    background-size: cover;
+}
+.icon_17{
+    background-image: url(/src/Components/PHOTO/icons/others/icons8-filmora-500.png);
+    background-size: cover;
+}
+.icon_18{
+    background-image: url(/src/Components/PHOTO/icons/others/icons8-git-500.png);
+    background-size: cover;
+}
+.icon_19{
+    background-image: url(/src/Components/PHOTO/icons/others/icons8-github-500.png);
+    background-size: cover;
+}
+.icon_20{
+    background-image: url(/src/Components/PHOTO/icons/others/icons8-intellij-idea-500.png);
+    background-size: cover;
+}
+.icon_21{
+    background-image: url(/src/Components/PHOTO/icons/others/icons8-pycharm-500.png);
+    background-size: cover;
+}
+.icon_22{
+    background-image: url(/src/Components/PHOTO/icons/others/icons8-python-500.png);
+    background-size: cover;
+}
+.icon_23{
+    background-image: url(/src/Components/PHOTO/icons/others/icons8-visual-studio-code-2019-500.png);
+    background-size: cover;
 }
