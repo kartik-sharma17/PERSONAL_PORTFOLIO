@@ -19,9 +19,9 @@ function App() {
       {/* <Front/> */}
       {/* <Education/> */}
       {/* <Skills/> */}
-      {/* <Experiance/> */}
+      <Experiance/>
       {/* <Projects/> */}
-      <Contact/>
+      {/* <Contact/> */}
       {/* <Footer/> */}
       </>
     </>
