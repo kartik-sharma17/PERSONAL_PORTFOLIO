@@ -7,7 +7,9 @@ import { Navbar } from './Components/Navbar'
 import { Education } from './Components/Education'
 import { Skills } from './Components/Skills'
 import { Footer } from './Components/Footer'
-
+import { Projects } from './Components/Projects'
+import { Experiance } from './Components/Experiance'
+import { Contact } from './Components/Contact'
 
 function App() {
 
@@ -16,7 +18,10 @@ function App() {
       <>   
       {/* <Front/> */}
       {/* <Education/> */}
-      <Skills/>
+      {/* <Skills/> */}
+      {/* <Experiance/> */}
+      {/* <Projects/> */}
+      <Contact/>
       {/* <Footer/> */}
       </>
     </>

@@ -1,0 +1,143 @@
+
+
+.body{
+    height: 100%;
+    width: 100%;
+    background-color: #060709;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* for form */
+form{
+    height: 100vh;
+    width: 40vw;
+    background-color: white;
+    margin: 70px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #190e24;
+    /* align-items: center; */
+    border-radius: 20px;
+}
+
+input{
+    width: 45%;
+    height: 50px;
+    margin: 8px;
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: none;
+    background-color: #060709;
+    color: white;
+}
+
+textarea{
+    width: 93.5%;
+    height: 200px;
+    margin: 8px;
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 7px;
+    background-color: #060709;
+    border: none;
+    color: white;
+}
+
+::placeholder{
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+}
+
+/* for text inside a form */
+form h1{
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    background: linear-gradient(to right, #8952f8, white);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 3.2vw;
+    padding: 10px;
+}
+
+form p{
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    font-size: 1.1vw;
+    padding: 0px 10px;
+    color: white;
+}
+
+/* for button */
+button{
+    width: 37%;
+    margin: 8px;
+    padding: 14px 25px;
+    border-radius: 40px;
+    color: white;
+    background: linear-gradient(to right, #8952f8, #48127e);
+    border: none;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+}
+
+/* for button on hover effect */
+button:hover{
+    background: linear-gradient(to right,#48127e, #8952f8 );
+}
+
+/* for contact  text */
+.contact_text{
+    height: 100vh;
+    width: 40vw;
+    margin-top: 70px;    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* for email & address text and icons to align */
+.email{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 20px;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 20px;
+}
+
+/* for text inside contact */
+
+.text h3{
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 1.1vw;
+    color: #dddddd;
+
+}
+
+.text h2{
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+    font-size: 1.4vw;
+    color: white;
+}
+
+/* for icons */
+.icon{
+    margin: 20px;
+    font-size: 1.5vw;
+    background: linear-gradient(to bottom,#48127e, #8952f8 );
+    padding: 10px;
+    border-radius: 50%;
+    color: #dddddd;
+}
