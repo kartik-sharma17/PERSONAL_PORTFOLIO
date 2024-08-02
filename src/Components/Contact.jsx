@@ -23,7 +23,7 @@ export const Contact = () => {
                     <input placeholder='Phone Number' />
                 </div>
                 <textarea placeholder='Message' />
-                <button>Send Message</button>
+                <button className={styles.butt}>Send Message</button>
             </form>
 
             <div className={styles.contact_text}>

@@ -33,7 +33,7 @@ export const Education = () => {
                 <div className={styles.check_points}>
                     <h2>2019</h2>
                     <h3 className='mt-2'>High School</h3>
-                    <h4 className='mt-2'>Dehradun Public School</h4>
+                    <h4 className='mt-2'>Dehradun Public School Ghaziabad</h4>
                 </div>
             </div>
 

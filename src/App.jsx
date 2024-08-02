@@ -17,10 +17,10 @@ function App() {
     <>
       <>   
       {/* <Front/> */}
-      <Education/>
+      {/* <Education/> */}
       {/* <Skills/> */}
       {/* <Experiance/> */}
-      {/* <Projects/> */}
+      <Projects/>
       {/* <Contact/> */}
       {/* <Footer/> */}
       </>

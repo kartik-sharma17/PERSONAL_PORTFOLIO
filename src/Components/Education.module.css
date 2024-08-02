@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30vw;
+    width: 40vw;
     height: 15vh;
     /* background-color: aqua; */
 }
@@ -25,12 +25,13 @@
     background: linear-gradient(to right, #8952f8, white);
     -webkit-background-clip: text;
     color: transparent;
+    font-size: 4vw;
 }
 
 /* for education icons */
 .icons {
     color: #8952f8;
-    font-size: 2.4vw;
+    font-size: 3vw;
     margin-right: 15px;
     margin-bottom: 10px;
 }
@@ -138,7 +139,7 @@
 }
 
 /* for responsive */
-@media (max-width:1000px) {
+@media (max-width:750px) {
 
     .check_points_box:nth-child(even) {
         border: none;
@@ -162,4 +163,56 @@
     .check_points_box:nth-child(odd) {
         transform: translateX(0);
     }
+
+    .heading { 
+        width: 100vw;
+        height: 15vh;
+    }
+    .heading h1 {
+        font-size: 11vw;
+    }
+
+    .icons {
+        font-size: 9vw;
+    }
+
+    .check_points {
+        height: 38vw;
+        width: 90vw;
+    }
+
+    .check_points h3 {
+       font-size: 5vw;
+    }
+    
+    .check_points h4 {
+        font-size: 3vw;
+    }
+    
+    .check_points h2 {
+        font-size: 5.5vw;
+    }
+
+    .check_points::before {
+        height: 10px;
+        width: 10px;
+        color: white;
+    }
+    
+}
+
+@media (min-width:751px) and (max-width:999px){
+    .heading h1 {
+        font-size: 4.5vw;
+    }
+
+    .icons {
+        font-size: 3.5vw;
+    }
+
+    .check_points {
+        height: 19vh;
+        width: 39vw;
+    }
+    
 }
