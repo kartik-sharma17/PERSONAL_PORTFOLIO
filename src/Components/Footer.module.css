@@ -11,7 +11,7 @@
 }
 
 /* for ancher used in footer */
-a{
+.anch{
     text-decoration: none;
     margin: 20px;
     color: #dddddd;
@@ -19,7 +19,7 @@ a{
     font-weight: 600;
 }
 /* for animaiton */
-a:hover{
+.anch:hover{
     border-bottom: 2px solid #8453d1;
 }
 

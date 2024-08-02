@@ -1,0 +1,62 @@
+.body {
+    height: 100%;
+    width: 100%;
+    background-color: #170b23;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* for intro text here */
+.introtext {
+    height: 10vw;
+    width: 50vw;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.introtext h1 {
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    background: linear-gradient(to right, #5c26c9, white);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 3.2vw;
+}
+
+.introtext p {
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    color: #dddddd;
+    font-size: 1.2vw;
+}
+
+/* for nav bar  */
+
+.nav{
+    height: 8vh;
+    width: 21vw;
+    background-color: #05060a;
+    border-radius: 30px;
+    padding: 12px;
+}
+
+.options{
+    text-decoration: none;
+    margin: 1px;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    color: white;
+    /* background-color: yellow; */
+    padding: 14px 22px;
+    border-radius: 30px;        
+}
+
+
+/* for nav show  */
+.nav_show {
+    height:100%;
+    width: 100%;
+}

@@ -1,0 +1,43 @@
+
+
+.body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #170b23;
+}
+
+/* for projects */
+.p{
+    background-color: #11041d;
+    /* background-color: white; */
+    height: 60vh;
+    width: 40vw;
+    /* border: 1px solid black; */
+    margin: 20px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+/* for the projects */
+.p1{
+    height: 80%;
+    width: 80%;
+    /* background-color: white; */
+    background-image: url('../PHOTO/projects/project_1.PNG');
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.p2{
+    height: 80%;
+    width: 80%;
+    /* background-color: white; */
+    background-image: url('../PHOTO/projects/pro_2.jpg');
+    background-size: cover;
+    border-radius: 20px;
+}

@@ -10,12 +10,13 @@ import { Footer } from './Components/Footer'
 import { Projects } from './Components/Projects'
 import { Experiance } from './Components/Experiance'
 import { Contact } from './Components/Contact'
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
 
   return (
     <>
-      <>   
+    <BrowserRouter>       
       {/* <Front/> */}
       {/* <Education/> */}
       {/* <Skills/> */}
@@ -23,7 +24,7 @@ function App() {
       <Projects/>
       {/* <Contact/> */}
       {/* <Footer/> */}
-      </>
+    </BrowserRouter>
     </>
   )
 }

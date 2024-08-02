@@ -11,12 +11,12 @@ export const Footer = () => {
         <div className={`${styles.footer_main}`} >
             <h2 className='mt-4'>Kartik Sharma</h2>
             <div className={styles.footer_nav} class="mt-4">
-                <a href='#'>Home</a>
-                <a href='#'>Education</a>
-                <a href='#'>Skills</a>
-                <a href='#'>Projects</a>
-                <a href='#'>Experience</a>
-                <a href='#'>Contact</a>
+                <a className={styles.anch} href='#'>Home</a>
+                <a className={styles.anch} href='#'>Education</a>
+                <a className={styles.anch} href='#'>Skills</a>
+                <a className={styles.anch} href='#'>Projects</a>
+                <a className={styles.anch} href='#'>Experience</a>
+                <a className={styles.anch} href='#'>Contact</a>
             </div>
             <div className={styles.footer_icons}>
                 <FontAwesomeIcon className={styles.icons} icon={faXTwitter} />
