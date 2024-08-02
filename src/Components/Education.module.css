@@ -1,7 +1,5 @@
-
-
 /* for body  */
-.body{
+.body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +9,7 @@
 }
 
 /* for heading */
-.heading{
+.heading {
     margin-top: 90px;
     display: flex;
     justify-content: center;
@@ -21,7 +19,7 @@
     /* background-color: aqua; */
 }
 
-.heading h1{
+.heading h1 {
     font-family: "Sora", sans-serif;
     font-weight: 700;
     background: linear-gradient(to right, #8952f8, white);
@@ -30,15 +28,15 @@
 }
 
 /* for education icons */
-.icons{
+.icons {
     color: #8952f8;
     font-size: 2.4vw;
     margin-right: 15px;
-    margin-bottom: 10px ;
+    margin-bottom: 10px;
 }
 
 /* for checkpoints */
-.check_points{
+.check_points {
     background-color: #190d24;
     height: 23vh;
     width: 38vw;
@@ -48,34 +46,35 @@
 }
 
 /* for hover animation */
-.check_points:hover{
-    background: linear-gradient(to right,#8750f7, #2a1454 );
+.check_points:hover {
+    background: linear-gradient(to right, #8750f7, #2a1454);
 }
 
-:hover.check_points h2{
+:hover.check_points h2 {
     color: white;
 }
 
-:hover.check_points h4{
+:hover.check_points h4 {
     color: white;
 }
 
 /* for text inside check_points */
 
-.check_points h3{
+.check_points h3 {
     font-family: "Sora", sans-serif;
     font-weight: 700;
     font-size: 1.6vw;
     color: white;
 }
 
-.check_points h4{
+.check_points h4 {
     font-family: "Sora", sans-serif;
     font-weight: 400;
     font-size: 1.2vw;
     color: #c3cfd9;
 }
-.check_points h2{
+
+.check_points h2 {
     font-family: "Sora", sans-serif;
     font-weight: 600;
     font-size: 1.7vw;
@@ -85,3 +84,82 @@
 /* for timeline */
 
 
+.check_points_box:nth-child(even) {
+    border-left: 1px solid white;
+    transform: translateX(50%);
+}
+
+.check_points_box:nth-child(odd) {
+    border-right: 1px solid white;
+    transform: translateX(-50%);
+}
+
+
+/* it is used to create a element using css and align it acoordingly */
+.check_points_box:nth-child(even)::before,
+.check_points_box:nth-child(odd)::before {
+    content: '';
+    background: white;
+    height: 1px;
+    width: 20px;
+    position: absolute;
+    top: 50%;
+}
+
+.check_points_box:nth-child(odd)::before {
+    right: 0;
+}
+
+
+/* to create a dot */
+.check_points_box:nth-child(even) div::before,
+.check_points_box:nth-child(odd) div::before {
+    content: '';
+    background: white;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    top: 48%;
+    border-radius: 50%;
+}
+
+.check_points_box:nth-child(even) div::before {
+    /* transform: translateX(-550%); */
+    left: -1%;
+}
+
+.check_points_box:nth-child(odd) div::before {
+    /* transform: translateX(1200%); */
+    left: 99.5%;
+}
+
+.forextramargin {
+    margin-bottom: 80px;
+}
+
+/* for responsive */
+@media (max-width:1000px) {
+
+    .check_points_box:nth-child(even) {
+        border: none;
+    }
+
+    .check_points_box:nth-child(odd) {
+        border: none;
+    }
+
+    .check_points_box:nth-child(even) div::before,
+    .check_points_box:nth-child(odd) div::before {
+        display: none;
+    }
+
+    .check_points_box:nth-child(even)::before,
+    .check_points_box:nth-child(odd)::before {
+        display: none;
+    }
+
+    .check_points_box:nth-child(even),
+    .check_points_box:nth-child(odd) {
+        transform: translateX(0);
+    }
+}
