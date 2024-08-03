@@ -11,7 +11,7 @@ import {All} from './Projects_navi/All'
 
 export const Projects = () => {
   return (
-    <div className={styles.body}>
+    <div id='Projects' className={styles.body}>
       <div className={`${styles.introtext}`}>
         <h1>My Recent Projects</h1>
         <p>Passionate about developing new and innovative projects that push the boundaries of 

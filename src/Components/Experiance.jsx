@@ -8,7 +8,7 @@ import { faStar } from '@fortawesome/free-regular-svg-icons'
 export const Experiance = () => {
     return (
 
-        <div className={styles.body}>
+        <div id='Experiance' className={styles.body}>
             <div className={styles.heading}>
                 <FontAwesomeIcon className={styles.icons} icon={faStar} />
                 <h1> My Experiance</h1>

@@ -6,7 +6,7 @@ import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 export const Contact = () => {
     return (
-        <div className={styles.body}>
+        <div id='Contact' className={styles.body}>
 
             <form>
                 <h1>Let's Work Together!</h1>

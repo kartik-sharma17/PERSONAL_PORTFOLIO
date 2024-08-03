@@ -13,18 +13,18 @@ import { Contact } from './Components/Contact'
 import { BrowserRouter } from 'react-router-dom'
 
 function App() {
-
   return (
     <>
-    <BrowserRouter>       
-      <Front/>
-      <Education/>
-      <Skills/>
-      <Experiance/>
-      <Projects/>
-      <Contact/>
-      <Footer/> 
-    </BrowserRouter>
+      <BrowserRouter>
+        <Navbar />
+        <Front />
+        <Education />
+        <Skills />
+        <Experiance />
+        <Projects />
+        <Contact />
+        <Footer />
+      </BrowserRouter>
     </>
   )
 }

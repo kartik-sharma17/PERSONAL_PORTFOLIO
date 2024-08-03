@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* for navbar  */
+.body{
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    justify-content: space-between;
+    background-color:#060709;
+    padding: 0px 60px;
+    align-items: center;
+    position: fixed;
+    z-index: 111;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.nav1 h2{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+    margin: 10px;
+    font-size: 1.1vw;
+}
+
+/* for text inside navbar  */
+.anchor{
+    color: #ffffff;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    margin: 10px;
+    font-size: 1.1vw;
+}
+
+/* for home under line  */
+.anchor:hover{
+    border-bottom: 2px solid #8453d1;
+}
+
+
+/* for hire me button  */
+
+.hire_me{
+    padding: 13px 35px;
+    background: linear-gradient(to left,#48127e, #8952f8 );
+    border-radius: 30px;
+    font-weight: 900;
+    border: none;
+    font-family: "Sora", sans-serif;
+    margin: 10px;
+    font-size: 1.1vw;
+    color: white;
+}
+
+.hire_me:hover{
+    background: linear-gradient(to left, #8952f8 ,#48127e );
+}
+
+/* for navbar responsive */

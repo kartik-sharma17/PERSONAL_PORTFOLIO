@@ -8,8 +8,8 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 export const Front = () => {
   return (
-    <div className={styles.body}>
-      <div className={`${styles.intro} ${'mt-5'}`}>
+    <div id="Front" className={styles.body}>
+      <div className={`${styles.intro}`}>
         <div className={`${styles.intro_text}`}>
           <h3 className={`${'text-light'} ${'ms-2'} ${styles.hov_t}`}>I am Kartik Sharma</h3>
           <h1 className={`${styles.hov_t}`}>Java Full Stack <br/> Developer</h1>
@@ -33,6 +33,7 @@ export const Front = () => {
       <div className={styles.intro_image}>
 
       </div>
+
     </div>
   )
 }

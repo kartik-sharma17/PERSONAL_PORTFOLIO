@@ -1,8 +1,8 @@
 /* for body */
 .body {
     background-color: #100817;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,9 @@
 .intro {
     height: 70vh;
     width: 50vW;
+    margin-top: 25vh;
     /* background-color: aqua; */
+    margin-bottom: 10vw;
 }
 
 /* for into text fonts */
@@ -68,6 +70,8 @@
     rotate: 4deg;
     transition: transform .4s;
     /* transition-delay: .1s ; */
+    margin-top: 25vh;
+    margin-bottom: 10vw;
 }
 
 :hover.intro_image {
@@ -127,6 +131,7 @@
     color: white;
     transform: scale(1.1);
 }
+
 
 /* for responsiveness */
 

@@ -7,7 +7,7 @@ import { faUserGraduate } from '@fortawesome/free-solid-svg-icons'
 export const Education = () => {
     return (
 
-        <div className={styles.body}>
+        <div id='Education' className={styles.body}>
             <div className={styles.heading}>
                 <FontAwesomeIcon className={styles.icons} icon={faUserGraduate} />
                 <h1> My Education</h1>

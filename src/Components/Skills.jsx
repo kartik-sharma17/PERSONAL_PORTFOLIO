@@ -7,7 +7,7 @@ import { faUserGraduate } from '@fortawesome/free-solid-svg-icons'
 
 export const Skills = () => {
     return (
-        <div className={styles.body}>
+        <div id='Skills' className={styles.body}>
             <div className={styles.skills_text}>
                 <h1>My Skills</h1>
                 <p className='text-center'>Here Are Some Skills I Worked On To Provide Solution To Multiple Frontend
