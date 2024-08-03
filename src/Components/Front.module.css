@@ -14,7 +14,7 @@
 .intro {
     height: 70vh;
     width: 50vW;
-    margin-top: 25vh;
+    margin-top: 10vh;
     /* background-color: aqua; */
     margin-bottom: 10vw;
 }
@@ -70,7 +70,7 @@
     rotate: 4deg;
     transition: transform .4s;
     /* transition-delay: .1s ; */
-    margin-top: 25vh;
+    margin-top: 10vh;
     margin-bottom: 10vw;
 }
 

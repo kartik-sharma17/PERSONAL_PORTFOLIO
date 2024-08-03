@@ -50,34 +50,43 @@
 /* for moving animation of container */
 @keyframes slidefromleft {
     from{
-        transform: translateX(-200px);
+        opacity: 0;
+        transform: translateX(-200px) scale(0.8);
     }
 
     to{
-        transform: translateX(0px);
+        opacity: 1;
+        transform: translateX(0px) scale(1);
     }
 }
 
 @keyframes slidefromright {
     from{
-        transform: translateX(200px);
+        opacity: 0;
+        transform: translateX(200px) scale(0.8);
     }
 
     to{
-        transform: translateX(0px);
+        opacity: 1;
+        transform: translateX(0px) scale(1);
     }
 }
 
+
+
 .front_end{
     animation-name: slidefromleft;
-    animation-duration: 1.5s;   
+    animation-delay: .5s;
+    animation-duration: 2s;   
+    animation-iteration-count: 1;
     position: relative;
     left: -100px;
 }
 
 .back_end{
     animation-name: slidefromright;
-    animation-duration: 1.5s;   
+    animation-delay: .5s;
+    animation-duration: 2s;    
     position: relative;
     right: -100px;
 }
@@ -85,7 +94,8 @@
 
 .others{
     animation-name: slidefromleft;
-    animation-duration: 1.5s;   
+    animation-delay: .5s;
+    animation-duration: 2s;
     position: relative;
     left : -100px;
 }

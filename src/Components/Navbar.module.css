@@ -12,11 +12,46 @@
     height: 15vh;
     width: 100vw;
     justify-content: space-between;
+    background-color:#100817;
+    padding: 0px 60px;
+    align-items: center;
+    /* position: fixed; */
+    z-index: 111;
+}
+
+/* for back color to change */
+.body_change{
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    justify-content: space-between;
     background-color:#060709;
     padding: 0px 60px;
     align-items: center;
-    position: fixed;
+    position: sticky ;
+    top: 0;
     z-index: 111;
+    animation-name: drop;
+    animation-duration: .4s;
+}
+
+/* for the animation of navbar */
+@keyframes drop{
+    0%{
+        transform :translateY(-20%)
+    }
+
+    50%{
+        transform: translateY(0);
+    }
+
+    80%{
+        transform: translateY(-10%);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
 }
 
 .nav2 {
@@ -46,7 +81,7 @@
     font-family: "Sora", sans-serif;
     font-weight: 600;
     margin: 10px;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
 }
 
 /* for home under line  */

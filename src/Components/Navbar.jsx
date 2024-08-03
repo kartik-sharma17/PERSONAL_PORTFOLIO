@@ -1,12 +1,27 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from './Navbar.module.css'
 import {Link} from 'react-router-dom'
 
 export const Navbar = () => {
+
+  const [color,Setcolor] = useState(false);
+
+  const changecolor = () =>{
+    if(window.scrollY >= 320){
+      Setcolor(true)
+    }
+    else{
+      Setcolor(false);
+    }
+  }
+  
+  // to call the function on scroll
+  window.addEventListener('scroll', changecolor)
+
   return (
     <>
-    <div className={styles.body}>
+    <div className={color ? styles.body_change : styles.body }>
         <div className={styles.nav1}>
             <h2>Contactkartikforwork2gmail.com</h2>
         </div>
