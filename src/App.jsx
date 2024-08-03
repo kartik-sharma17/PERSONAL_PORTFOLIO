@@ -17,13 +17,13 @@ function App() {
   return (
     <>
     <BrowserRouter>       
-      {/* <Front/> */}
-      {/* <Education/> */}
-      {/* <Skills/> */}
-      {/* <Experiance/> */}
+      <Front/>
+      <Education/>
+      <Skills/>
+      <Experiance/>
       <Projects/>
-      {/* <Contact/> */}
-      {/* <Footer/> */}
+      <Contact/>
+      <Footer/> 
     </BrowserRouter>
     </>
   )
