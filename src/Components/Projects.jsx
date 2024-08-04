@@ -7,14 +7,19 @@ import {Web} from './Projects_navi/Web'
 import {Android} from './Projects_navi/Android'
 import {All} from './Projects_navi/All'
 
+// for animation
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
 
 
 export const Projects = () => {
   return (
     <div id='Projects' className={styles.body}>
       <div className={`${styles.introtext}`}>
-        <h1>My Recent Projects</h1>
-        <p>Passionate about developing new and innovative projects that push the boundaries of 
+        <h1 data-aos="fade-up">My Recent Projects</h1>
+        <p data-aos="fade-down">Passionate about developing new and innovative projects that push the boundaries of 
           technology and creativity.
         </p>
       </div>

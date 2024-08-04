@@ -126,12 +126,12 @@
 
 .check_points_box:nth-child(even) div::before {
     /* transform: translateX(-550%); */
-    left: -1%;
+    left: -5%;
 }
 
 .check_points_box:nth-child(odd) div::before {
     /* transform: translateX(1200%); */
-    left: 99.5%;
+    left: 103.5%;
 }
 
 .forextramargin {

@@ -75,27 +75,27 @@
 
 
 .front_end{
-    animation-name: slidefromleft;
+    /* animation-name: slidefromleft;
     animation-delay: .5s;
     animation-duration: 2s;   
-    animation-iteration-count: 1;
+    animation-iteration-count: 1; */
     position: relative;
     left: -100px;
 }
 
 .back_end{
-    animation-name: slidefromright;
+    /* animation-name: slidefromright;
     animation-delay: .5s;
-    animation-duration: 2s;    
+    animation-duration: 2s;     */
     position: relative;
     right: -100px;
 }
 
 
 .others{
-    animation-name: slidefromleft;
+    /* animation-name: slidefromleft;
     animation-delay: .5s;
-    animation-duration: 2s;
+    animation-duration: 2s; */
     position: relative;
     left : -100px;
 }

@@ -4,6 +4,13 @@ import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
+// for animation library
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
+
+
 export const Android = () => {
   return (
     <div className={styles.body}>
@@ -47,7 +54,7 @@ export const Android = () => {
           </div>
         </div> */}
 
-        <div className={`${styles.p} `}>
+        <div data-aos="slide-left" className={`${styles.p} `}>
           <div className={`${styles.p4}`}>
             <div className={styles.anchor}>
             <a className={styles.aa} href='#'>

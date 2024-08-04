@@ -5,17 +5,25 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserGraduate } from '@fortawesome/free-solid-svg-icons'
 // import { faHtml5 ,faCss3 ,faSquareJs,faReact , faBootstrap } from '@fortawesome/free-brands-svg-icons'
 
+
+// for animation library
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
+
+
 export const Skills = () => {
     return (
         <div id='Skills' className={styles.body}>
             <div className={styles.skills_text}>
-                <h1>My Skills</h1>
-                <p className='text-center'>Here Are Some Skills I Worked On To Provide Solution To Multiple Frontend
+                <h1 data-aos="fade-up">My Skills</h1>
+                <p data-aos="fade-down" className='text-center'>Here Are Some Skills I Worked On To Provide Solution To Multiple Frontend
                     <br />And Backend Related Problems.</p>
             </div>
 
 
-            <div className={`${styles.front_end} ${styles.skills_container}`}>
+            <div data-aos="fade-right" className={`${styles.front_end} ${styles.skills_container}`}>
                 <h2 className='text-center'>Front End</h2>
                 <div className={styles.skills_container_icons}>
                     <div className={`${styles.icons_img} ${styles.icon_1}`}></div>
@@ -28,7 +36,7 @@ export const Skills = () => {
                 </div>
             </div>
 
-            <div className={`${styles.back_end} ${styles.skills_container}`}>
+            <div data-aos="fade-left" className={`${styles.back_end} ${styles.skills_container}`}>
                 <h2 className='text-center'>Back End</h2>
                 <div className={styles.skills_container_icons}>
                     <div className={`${styles.icons_img} ${styles.icon_9}`}></div>
@@ -41,7 +49,7 @@ export const Skills = () => {
                 </div>
             </div>
 
-            <div className={`${styles.others} ${styles.skills_container}`}>
+            <div data-aos="fade-right" className={`${styles.others} ${styles.skills_container}`}>
                 <h2 className='text-center'>Others</h2>
                 <div className={styles.skills_container_icons}>
                     <div className={`${styles.icons_img} ${styles.icon_16}`}></div>

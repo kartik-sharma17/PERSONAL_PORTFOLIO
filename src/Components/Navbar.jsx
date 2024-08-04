@@ -3,6 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from './Navbar.module.css'
 import {Link} from 'react-router-dom'
 
+// for animation library
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
 export const Navbar = () => {
 
   const [color,Setcolor] = useState(false);

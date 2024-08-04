@@ -5,15 +5,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXTwitter ,faLinkedinIn ,  faGithub ,faInstagram} from '@fortawesome/free-brands-svg-icons'
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
+// for animations
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
 
 export const Front = () => {
   return (
     <div id="Front" className={styles.body}>
       <div className={`${styles.intro}`}>
         <div className={`${styles.intro_text}`}>
-          <h3 className={`${'text-light'} ${'ms-2'} ${styles.hov_t}`}>I am Kartik Sharma</h3>
-          <h1 className={`${styles.hov_t}`}>Java Full Stack <br/> Developer</h1>
-          <h5 className={`${styles.hov_t} ${'mt-3'}`}>
+          <h3 data-aos="fade-up" className={`${'text-light'} ${'ms-2'} ${styles.hov_t}`}>I am Kartik Sharma</h3>
+          <h1 data-aos="fade-down" className={`${styles.hov_t}`}>Java Full Stack <br/> Developer</h1>
+          <h5 data-aos="fade-down" className={`${styles.hov_t} ${'mt-3'}`}>
             Crafting seamless web experiences from front to back with Java expertise! Passionate about building
             innovative and scalable solutions
           </h5>

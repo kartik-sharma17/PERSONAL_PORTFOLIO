@@ -4,11 +4,18 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
+
+// for animation library
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
+
 export const Contact = () => {
     return (
         <div id='Contact' className={styles.body}>
 
-            <form>
+            <form data-aos="slide-right">
                 <h1>Let's Work Together!</h1>
                 <p>
                     I am passionate about coding and love creating innovative and exciting projects
@@ -27,7 +34,7 @@ export const Contact = () => {
             </form>
 
             <div className={styles.contact_text}>
-                <div className={styles.email}>
+                <div data-aos="slide-left" className={styles.email}>
                     <FontAwesomeIcon className={styles.icon} icon={faEnvelope} />
                     <div className={styles.text}>
                         <h3>Email</h3>
@@ -35,7 +42,7 @@ export const Contact = () => {
                     </div>
                 </div>
 
-                <div className={styles.address}>
+                <div data-aos="slide-left" className={styles.address}>
                     <FontAwesomeIcon className={styles.icon} icon={faLocationDot} />
                     <div className={styles.text}>
                         <h3>Address</h3>

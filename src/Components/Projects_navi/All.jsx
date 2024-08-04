@@ -3,6 +3,12 @@ import styles from './All.module.css'
 import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+// for animations
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
+
 
 export const All = () => {
   return (
@@ -10,7 +16,7 @@ export const All = () => {
 
       <div className={styles.row1}>
 
-        <div className={`${styles.p} `}>
+        <div data-aos="slide-right" className={`${styles.p} `}>
           <div className={`${styles.p1}`}>
             <div className={styles.anchor}>
               <a className={styles.aa} target="_blank" href='https://github.com/kartik-sharma17/PERSONAL_PORTFOLIO'>
@@ -24,7 +30,7 @@ export const All = () => {
           </div>
         </div>
 
-        <div className={`${styles.p} `}>
+        <div data-aos="slide-right" className={`${styles.p} `}>
           <div className={`${styles.p2}`}>
             <div className={styles.anchor}>
               <a className={styles.aa} target="_blank" href=''>
@@ -42,7 +48,7 @@ export const All = () => {
 
       <div className={styles.row2}>
 
-        <div className={`${styles.p} `}>
+        <div data-aos="slide-left" className={`${styles.p} `}>
           <div className={`${styles.p3}`}>
             <div className={styles.anchor}>
               <a className={styles.aa} target="_blank" href='https://github.com/kartik-sharma17/online_ordering_system_for_shop'>
@@ -56,7 +62,7 @@ export const All = () => {
           </div>
         </div>
 
-        <div className={`${styles.p} `}>
+        <div data-aos="slide-left" className={`${styles.p} `}>
           <div className={`${styles.p4}`}>
             <div className={styles.anchor}>
               <a className={styles.aa} href='#'>
