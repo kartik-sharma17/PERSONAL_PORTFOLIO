@@ -17,7 +17,7 @@ export const Experiance = () => {
         <div id='Experiance' className={styles.body}>
             <div className={styles.heading}>
                 <FontAwesomeIcon data-aos="fade-up" className={styles.icons} icon={faStar} />
-                <h1 data-aos="fade-up"> My Experiance</h1>
+                <h1 data-aos="fade-up"> My Experience</h1>
             </div>
 
             <div className={styles.check_points_box}>

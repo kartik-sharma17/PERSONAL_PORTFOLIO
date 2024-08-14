@@ -191,7 +191,8 @@
         height: 80vw;
         width: 70vW;
         position: absolute;
-        top: 60vw;
+        top: 45vw;
+        /* transform: rotate(-4deg); */
     }
 
     .intro_buttons {
@@ -199,14 +200,26 @@
         top: 140vw;
         /* justify-content: center; */
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
-    .bt{
-        font-size: 4vw;
+    .btnn{
+        font-size: 3.5vw;
+        margin-top: 20px;
+    }
+
+    /* for icons */
+    .icons_parent{
+        margin-top: 15px;
+        width: 50%;
+        /* margin-bottom: 15px; */
     }
 
     .icons{
-        font-size:2.5vw;
+        font-size:2.8vw;
+        margin: 5px;
+        text-align: center;
     }
 }
 
