@@ -21,8 +21,8 @@ function App() {
         <Education />
         <Skills />
         <Experiance />
-        {/* <Projects /> */}
-        {/* <Contact /> */}
+        <Projects />
+        <Contact />
         {/* <Footer />  */}
       </BrowserRouter>
     </>

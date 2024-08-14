@@ -69,7 +69,7 @@
     height: 35%;
     width: 100%;
     background: linear-gradient(to left,#431075, #7146c9 );
-    margin-top: 48%;
+    margin-top: 120px;
     padding: 15px;
     border-radius: 20px;
     display: none;
@@ -113,4 +113,28 @@
 
 a{
     text-decoration: none;
+}
+
+
+/* for responsive */
+@media (max-width: 800px){
+    .body{
+        flex-direction: column;
+    }
+
+    .p{
+        width: 90%;
+        height: 50vh;
+    }
+
+    .anchor h2{
+        font-size: 1rem;
+    }
+    
+    .anchor p{
+        font-size: .6rem;
+    }
+    .icon{
+        font-size: 1rem;
+    }
 }
