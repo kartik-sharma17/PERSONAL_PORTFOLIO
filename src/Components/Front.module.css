@@ -165,7 +165,7 @@
 @media (max-width:600px) {
     .body {
         flex-direction: column;
-        height: 100%;
+        height: 100vh;
     }
 
     .intro {
@@ -181,6 +181,7 @@
 
     .intro h3 {
         font-size: 6vw;
+        margin-top: -50px;
     }
 
     .intro h5 {
@@ -191,7 +192,7 @@
         height: 80vw;
         width: 70vW;
         position: absolute;
-        top: 45vw;
+        top: 48vw;
         /* transform: rotate(-4deg); */
     }
 

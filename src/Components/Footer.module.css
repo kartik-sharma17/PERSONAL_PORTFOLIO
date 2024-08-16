@@ -58,3 +58,26 @@
     color: #8453d1;
     border: 1px solid #8453d1;
 }
+
+
+/* for responsive */
+
+@media (max-width:660px) {
+
+    .footer_main{
+        height: 250px;
+    }
+
+    .anch{
+        display: none;
+    }
+
+
+    .icons{
+        font-size: 3.5vw;
+    }
+
+    .footer_main h5{
+        font-size: 4vw;
+    }
+}

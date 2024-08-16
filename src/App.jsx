@@ -16,14 +16,14 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        {/* <Navbar /> */}
+        <Navbar />
         <Front />
         <Education />
         <Skills />
         <Experiance />
         <Projects />
         <Contact />
-        {/* <Footer />  */}
+        <Footer /> 
       </BrowserRouter>
     </>
   )
