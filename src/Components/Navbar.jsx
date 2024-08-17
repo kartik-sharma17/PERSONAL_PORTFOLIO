@@ -46,7 +46,7 @@ export const Navbar = () => {
           <a href='#Front' className={`${styles.anchor} ${styles.home_btn}`}>Home</a>
           <a href="#Education" className={styles.anchor}>Education</a>
           <a href="#Skills" className={styles.anchor}>Skills</a>
-          <a href="#Experiance" className={styles.anchor}>Experience</a>
+          <a href="#Experience" className={styles.anchor}>Experience</a>
           <a href="#Projects" className={styles.anchor}>Projects</a>
           <a href="#Contact" className={styles.anchor}>Contact</a>
           <a href="#Contact" className={`${styles.hire_me}`}>Hire Me!</a>
@@ -57,7 +57,7 @@ export const Navbar = () => {
               <a href='#Front' className={`${styles.anchor} ${styles.home_btn}`}>Home</a>
               <a href="#Education" className={styles.anchor}>Education</a>
               <a href="#Skills" className={styles.anchor}>Skills</a>
-              <a href="#Experiance" className={styles.anchor}>Experience</a>
+              <a href="#Experience" className={styles.anchor}>Experience</a>
               <a href="#Projects" className={styles.anchor}>Projects</a>
               <a href="#Contact" className={styles.anchor}>Contact</a>
               <a href="#Contact" className={`${styles.hire_me}`}>Hire Me!</a>

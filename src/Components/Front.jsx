@@ -26,10 +26,10 @@ export const Front = () => {
           <div className={`${styles.intro_buttons} ${'mt-4'}`}>
             <button className={`${styles.btnn} ${styles.hov_b}`}>Download CV <FontAwesomeIcon  icon={faDownload} /></button>
             <div className={styles.icons_parent}>
-            <FontAwesomeIcon className={`${styles.icons} ${styles.hov_b}`} icon={faXTwitter} />
-            <FontAwesomeIcon className={`${styles.icons} ${styles.hov_b}`} icon={faLinkedinIn} />
-            <FontAwesomeIcon className={`${styles.icons} ${styles.hov_b}`} icon={faGithub} />
-            <FontAwesomeIcon className={`${styles.icons} ${styles.hov_b}`} icon={faInstagram} />
+           <a target="_blank" href="https://x.com/KartikSharma_17"><FontAwesomeIcon className={`${styles.icons} ${styles.hov_b}`} icon={faXTwitter} /></a> 
+            <a target="_blank" href="https://www.linkedin.com/in/kartik-sharma-a82482261/"><FontAwesomeIcon className={`${styles.icons} ${styles.hov_b}`} icon={faLinkedinIn} /></a>
+            <a target="_blank" href="https://github.com/kartik-sharma17"><FontAwesomeIcon className={`${styles.icons} ${styles.hov_b}`} icon={faGithub} /></a>
+            <a target="_blank" href="https://www.instagram.com/kartik_sharma__17/"><FontAwesomeIcon className={`${styles.icons} ${styles.hov_b}`} icon={faInstagram} /></a>
             </div>
           </div>
         </div>
